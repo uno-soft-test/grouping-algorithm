@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Конфигурационный класс для управления параметрами приложения.
  * <p>
- * Считывает значения из файла конфигурации (application.properties или аналогичного) и предоставляет доступ к ним.
+ * Считывает значения из файла конфигурации (application.yml или аналогичного) и предоставляет доступ к ним.
  */
 @Configuration
 @Getter
@@ -16,12 +16,12 @@ public class AppConfiguration {
     /**
      * Путь к входному CSV файлу.
      */
-    @Value("${input.file}")
+    @Value("${app.input.file}")
     private String inputFile;
 
     /**
      * Путь к выходному файлу для записи результатов.
      */
-    @Value("${output.file}")
+    @Value("${app.output.file}")
     private String outputFile;
 }
