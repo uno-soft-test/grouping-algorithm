@@ -32,11 +32,11 @@ java -Xmx1G -jar grouping-algorithm.jar
 1. **Для обычного текстового файла `.txt`**:
 
    ```bash
-   java -Xmx1G -jar grouping-algorithm.jar путь/к/вашему_файлу.txt
+   java -Xmx1G -jar grouping-algorithm.jar путь/к/файлу.txt
    ```
 
 2. **Для сжатого файла `.txt.gz`**:
 
    ```bash
-   java -Xmx1G -jar grouping-algorithm.jar путь/к/вашему_файлу.txt.gz
+   java -Xmx1G -jar grouping-algorithm.jar путь/к/файлу.txt.gz
    ```
